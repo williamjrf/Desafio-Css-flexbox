@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+.principal{
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+
+}
+main{
+  display: flex;
+  flex: 0 0 82%;
+
+}
+.contactos{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+.estado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #c3c3c3;
+    border-right: solid 1px #c3c3c3;
+    padding: 10px 20px 10px 30px;
+  }
+  .estado-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .estado-img{
+    justify-content: center;
+  }
+  body{
+    --google-font-color-cairoplay: none;
+  }
+  .estado-usuario{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .estado-usuario p{
+    margin: 0;
+  }
+  .icon{
+    display: flex;
+    gap: 1em;
+  }
+  .fa-regular, .far{
+    font-weight: 400;
+  }
+  .fa-lg{
+    font-size: 1.25em;
+    line-height: .05em;
+    vertical-align: -.075em;
+    
+  }
+  .boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+    border-bottom: solid 1px #c3c3c3;
+    border-right: solid 1px #c3c3c3;
+  }
+  .boton1{
+    padding: 15px 60px;
+    background-color: #A491D2;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    color: white;
+    border: none;
+  }
+  .chats{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #c3c3c3;
+    border-right: solid 1px #c3c3c3;
+    gap: 20px;
+    padding: 14px 0 14px 30px;
+  }
+  .chats-img{
+    justify-content: center;
+    align-items: center;
+  }
+  .chats-info{
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .chats-info p{
+    margin: 0;
+  }
+  
+  .principal p{
+    text-align: center;
+    margin: 0;
+  }
+  .principal img{
+    width: 20em;
+    margin-bottom: 30px;
+  }
+  .estado img{
+    width: 3em;
+    border-radius: 50%;
+  }
+  .chats img{
+    width: 3.4em;
+    border-radius: 50%;
+  }
+  .roboto-bold{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.1em;
+  }
+  .roboto-bold-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+  }
+  .roboto-bold-estado{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.7em;
+  }
+  body{
+    --google-font-color-cairoplay: none;
+  }
